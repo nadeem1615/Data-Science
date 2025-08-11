@@ -1,0 +1,76 @@
+/* Global styling */
+body {
+    background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Card styling */
+.card {
+    background: #fff;
+    border-radius: 15px;
+    border: none;
+}
+
+/* Title */
+.title {
+    font-weight: 700;
+    color: #4a148c;
+}
+
+/* Section titles */
+.section-title {
+    font-weight: 600;
+    color: #6a1b9a;
+    margin-bottom: 15px;
+}
+
+/* Gradient Button */
+.btn-gradient {
+    background: linear-gradient(90deg, #6a1b9a, #8e24aa);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(90deg, #8e24aa, #ab47bc);
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+.table-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead {
+    background: #6a1b9a;
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f3e5f5;
+    transition: 0.2s;
+}
+
+/* Plot Styling */
+.plot-container {
+    padding: 15px;
+    background: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.plot-image {
+    border-radius: 8px;
+    max-height: 450px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
