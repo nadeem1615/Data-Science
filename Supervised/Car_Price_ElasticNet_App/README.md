@@ -32,7 +32,7 @@ By combining both, ElasticNet gets the best of both worlds, making it a robust c
 
 ## File Structure
 
-## 📂 Project Structure
+##  Project Structure
 
 Car_Price_ElasticNet_App/
 ├── static/
@@ -99,7 +99,11 @@ Open your web browser and navigate to the following address:
 
 You should see a web form where you can input car details to get a price prediction.
 
+## Screenshots:
 
+## Screenshot 1:
 ![General interface](img1.png)
+## Screenshot 2:
 ![Filling in the details](img2.png)
+## Screenshot 3:
 ![Final predicted result](img3.png)
