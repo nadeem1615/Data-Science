@@ -1,5 +1,5 @@
 
-# Customer Segmentation using K-Means Clustering 🎯
+# Customer Segmentation using K-Means Clustering 
 
 This project segments mall customers into distinct groups using the **K-Means Clustering** algorithm, one of the most popular and fundamental methods in unsupervised learning. The analysis focuses on identifying customer personas based on their annual income and spending score, providing actionable insights for targeted marketing.
 
@@ -7,7 +7,7 @@ A key part of the analysis involves using the **Elbow Method** to determine the 
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`Mall Customer Segmentation.ipynb`**: This is the project's core Jupyter Notebook. It provides a complete walkthrough of the K-Means clustering process, including:
       * Loading and inspecting the customer data.
@@ -18,7 +18,7 @@ A key part of the analysis involves using the **Elbow Method** to determine the 
 
 -----
 
-## 🧠 Core Concept: K-Means & The Elbow Method
+##  Core Concept: K-Means & The Elbow Method
 
 **K-Means Clustering** is an algorithm that aims to partition data into 'k' distinct, non-overlapping clusters. It works by assigning each data point to the cluster with the nearest mean (called the cluster *centroid*), then recalculating the centroid of each cluster. This process repeats until the clusters are stable.
 
@@ -26,7 +26,30 @@ To find the best value for 'k', we use the **Elbow Method**. This involves runni
 
 -----
 
-## 🚀 How to Run the Project
+
+## Project Structure 
+```
+Mall_Customer_KMeans/
+│
+├── static/                         # CSS styles for the Flask application
+│   └── css/
+├── templates/                     # HTML templates for the app interface
+├── Mall_Customers.csv             # Dataset containing mall customer data
+│
+├── README.md                      # Project documentation and usage instructions
+├── requirements.txt               # Python dependencies
+│
+├── app.py                        # Main Flask application entry point
+├── create_model.py               # Script to train and save the K-Means clustering model
+│
+├── kmeans_model.pkl              # Serialized K-Means clustering model
+│
+├── img1.png                      # Screenshots or visuals of the app
+├── img2.png
+├── img3.png
+```
+
+##  How to Run the Project
 
 Follow these steps to replicate the analysis on your machine.
 
@@ -95,12 +118,18 @@ In the browser tab that opens, click on **`Mall Customer Segmentation.ipynb`**. 
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+### Step 1:
+![](img1.png)
+### Step 2:
+![](img2.png)
+### Step 3:
+![](img3.png)
 
 
 -----
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 This project is an educational demonstration of the K-Means algorithm. The insights and customer segments are derived solely from the provided dataset and should be considered as a practical example of a clustering task.

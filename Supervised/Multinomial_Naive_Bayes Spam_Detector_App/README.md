@@ -1,7 +1,7 @@
 
 -----
 
-# Spam Detector Web App using Multinomial Naive Bayes 📧
+# Spam Detector Web App using Multinomial Naive Bayes 
 
 This project implements a spam detector using a **Multinomial Naive Bayes** classifier. It is deployed as a simple web application using Flask, where users can enter a text message and get a prediction on whether it is "Spam" or "Not Spam" (Ham).
 
@@ -9,7 +9,7 @@ The model is trained on a dataset of SMS messages and uses a `CountVectorizer` t
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`Spam Detector.ipynb`**: A Jupyter Notebook that walks through the entire process of creating the model. It includes data loading, text preprocessing, feature extraction using `CountVectorizer`, training the Multinomial Naive Bayes model, and evaluating its accuracy.
   * **`app.py`**: The backend of the web application. This Flask script loads the pre-trained model and vectorizer, handles user requests from the web page, and returns the classification result.
@@ -20,7 +20,25 @@ The model is trained on a dataset of SMS messages and uses a `CountVectorizer` t
 
 -----
 
-## 🚀 How to Run the Project
+
+## Project Structure
+```
+Multinomial_Naive_Bayes_Spam_Detector_App/
+├── static/
+│   └── css/                     # CSS styles for the web interface
+├── templates/                   # HTML templates for the Flask app UI
+├── README.md                    # Project documentation and usage guide
+├── app.py                       # Main Flask application to detect spam messages
+├── create_model.py              # Script to train and save the Naive Bayes spam detection model
+├── img1.png                     # UI / output screenshot
+├── img2.png
+├── img3.png
+├── requirements.txt             # List of Python dependencies for the project
+├── spam.csv                     # Dataset containing spam/ham messages
+├── spam_model.pkl               # Saved trained Naive Bayes model
+```
+
+##  How to Run the Project
 
 You can either run the final web application directly or explore the model creation process in the Jupyter Notebook.
 
@@ -107,14 +125,17 @@ If you want to understand how the model was built, you can run the Jupyter Noteb
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
 
 -----
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 This project is created for educational and demonstration purposes only. The model's accuracy is dependent on the dataset it was trained on, and it should not be used for any critical commercial or production applications.

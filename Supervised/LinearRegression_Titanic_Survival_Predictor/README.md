@@ -1,7 +1,7 @@
 
 -----
 
-### Objective: Predicting Survival 🚢
+### Objective: Predicting Survival 
 
 The goal is to use the historical passenger data from the Titanic to build a machine learning model that can predict whether a given passenger would have survived the shipwreck. This is a classic classification problem: the answer is a "yes" or "no" (or 1 or 0).
 
@@ -61,6 +61,26 @@ After training the model, the final step is to test its performance on data it h
 
 -----
 
+
+
+## Project Structure
+```
+LinearRegression_Titanic_Survival_Predictor/
+├── static/
+│   └── css/                          # CSS styles for the Flask web interface
+├── templates/                        # HTML templates for rendering the UI
+├── README.md                         # Project documentation and usage guide
+├── app.py                            # Main Flask application entry point
+├── create_model.py                   # Script to train and save the Linear Regression model
+├── img1.png                          # App UI screenshot or workflow image
+├── img2.png
+├── img3.png
+├── model.pkl                         # Pickle file containing trained model (possibly older version)
+├── requirements.txt                  # Python dependencies for running the project
+├── titanic_linear_model.pkl          # Trained Linear Regression model
+├── titanic_model.pkl                  # Additional trained model variant
+```
+
 ## How to Run the Project
 
 To run the analysis on your own machine, you'll need Python and a few common data science libraries. Follow these steps.
@@ -107,7 +127,11 @@ jupyter lab
 
 This command will open a new tab in your web browser. From there, you can navigate to and click on the `LinearRegression Titanic Survival Predictor.ipynb` file to open it and run the cells.
 
+## Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)

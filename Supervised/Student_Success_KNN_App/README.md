@@ -1,5 +1,5 @@
 
-# Student Success Predictor using K-Nearest Neighbors (KNN) 🎓
+# Student Success Predictor using K-Nearest Neighbors (KNN) 
 
 This project predicts a student's academic outcome—whether they are likely to **Graduate**, **Drop out**, or remain **Enrolled**. The prediction is made using a **K-Nearest Neighbors (KNN)** classifier, which is trained on a dataset of student demographic, social, and academic data.
 
@@ -7,7 +7,7 @@ The final model is deployed as an interactive web application using **Flask**, a
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`Student Success Prediction.ipynb`**: The complete Jupyter Notebook that details the project from start to finish. It includes data loading, cleaning, exploratory data analysis (EDA), and the training and evaluation of the KNN model.
   * **`app.py`**: The Flask backend script. It loads the trained KNN model and the preprocessor, manages the web routes, and processes user input to generate a prediction.
@@ -19,7 +19,25 @@ The final model is deployed as an interactive web application using **Flask**, a
 
 -----
 
-## 🚀 How to Run the Project
+
+## Project Structure
+```
+Student_Success_KNN_App/
+├── static/
+│   └── css/                           # CSS styles for the web interface
+├── templates/                         # HTML templates for the Flask app UI
+├── README.md                          # Project documentation and usage instructions
+├── app.py                             # Main Flask application to predict student success using KNN
+├── create_model.py                    # Script to train and save the KNN model
+├── img1.png                            # UI / output screenshot
+├── img2.png
+├── img3.png
+├── knn_student_success_data.csv       # Dataset containing student performance details
+├── requirements.txt                   # Python dependencies for running the project
+├── student_success_knn_model.pkl      # Trained KNN model file
+```
+
+##  How to Run the Project
 
 You can either run the final web application or explore how the model was created in the Jupyter Notebook.
 
@@ -107,13 +125,16 @@ If you want to understand the data analysis and model-building steps, you can ru
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
 -----
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 This project is intended for educational and demonstration purposes only. The predictions are based on statistical patterns in the dataset and should not be used as a sole determinant of a student's potential or for making critical decisions about their academic career.

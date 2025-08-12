@@ -19,7 +19,26 @@ The repository contains the following files:
   * **templates/index.html**: This is the HTML template for the web application's user interface. It contains the form where users can input their financial information.
   * **static/style.css**: This file contains the CSS code for styling the web application. It is used to customize the appearance of the web page, including the layout, colors, and fonts.
 
-## 🚀 How to Run the Project
+
+## Project Structure
+```
+Loan_Default_GB_App/
+├── static/
+│   └── css/                                 # CSS styles for the Flask web interface
+├── templates/                               # HTML templates for rendering the UI
+├── README.md                                # Project documentation and usage instructions
+├── app.py                                   # Main Flask application entry point
+├── create_model.py                          # Script to train and save the Gradient Boosting model
+├── img1.png                                 # App UI / workflow screenshot
+├── img2.png
+├── img3.png
+├── loan_default_gb_model.pkl                # Trained Gradient Boosting model
+├── loan_default_prediction_dataset.csv      # Dataset used for training and testing
+├── model_columns.pkl                        # Pickled list of model input feature columns
+├── requirements.txt                         # Python dependencies for running the project
+```
+
+##  How to Run the Project
 
 Follow these steps to get the application running on your local machine.
 
@@ -104,8 +123,11 @@ You should now see the loan prediction web application. You can fill out the for
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)

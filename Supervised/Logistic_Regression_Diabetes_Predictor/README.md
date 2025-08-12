@@ -1,14 +1,13 @@
-Of course. Here is a detailed README.md for the Diabetes Predictor project, including full instructions on how to run it.
 
 -----
 
-# Diabetes Predictor using Logistic Regression 🩺
+# Diabetes Predictor using Logistic Regression 
 
 This project uses a **Logistic Regression** model to predict whether a patient has diabetes based on certain diagnostic medical measurements. The entire data analysis and model building process is contained within a Jupyter Notebook.
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`LogisticRegression_Diabetes_Predictor.ipynb`**: This is the core of the project. It's a Jupyter Notebook that contains all the Python code for:
       * Loading and exploring the dataset.
@@ -20,7 +19,26 @@ This project uses a **Logistic Regression** model to predict whether a patient h
 
 -----
 
-## 🚀 How to Run the Project
+
+
+## Project Structure
+```
+Logistic_Regression_Diabetes_Predictor/
+├── static/
+│   └── css/                     # CSS styles for the web interface
+├── templates/                   # HTML templates for the Flask app UI
+├── README.md                    # Project documentation and setup guide
+├── app.py                       # Main Flask application for prediction
+├── create_model.py              # Script to train and save the logistic regression model
+├── diabetes.csv                 # Dataset containing diabetes-related patient data
+├── diabetes_model.pkl           # Saved trained logistic regression model
+├── img1.png                     # UI / output screenshot
+├── img2.png
+├── img3.png
+├── requirements.txt             # List of Python dependencies for the project
+```
+
+##  How to Run the Project
 
 Follow these instructions to explore the project and run the code on your local machine.
 
@@ -113,10 +131,13 @@ In the browser tab that just opened, click on the **`LogisticRegression_Diabetes
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
 
 ## Disclaimer

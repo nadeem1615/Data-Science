@@ -28,6 +28,26 @@ The dataset used for this project is `movie preference.csv`. It contains the fol
   * **gender**: Gender of the person (e.g., Male, Female).
   * **genre**: The movie genre preference (e.g., Action, Comedy, Drama).
 
+
+
+
+  ## Project Structure
+```
+Decision_tree_Movie_Interest_Predictor/
+├── static/
+│   └── css/                          # CSS styles for the Flask web interface
+├── templates/                        # HTML templates for rendering the UI
+├── Movie Interests.csv               # Dataset containing movie interest information
+├── README.md                         # Project documentation and usage guide
+├── app.py                            # Main Flask application entry point
+├── create_model.py                   # Script to train and save the Decision Tree model
+├── img1.png                          # App UI screenshot or workflow image
+├── img2.png
+├── img3.png
+├── movie_model.pkl                    # Trained Decision Tree model for predictions
+├── requirements.txt                   # Python dependencies for running the project
+```
+
 ## Dependencies
 
 The project is implemented in a Jupyter Notebook (`.ipynb`) and requires the following Python libraries:
@@ -67,6 +87,12 @@ The model is trained using the `model.fit()` command, which builds the internal 
 
 Finally, the trained decision tree can be visualized to understand how it makes predictions. This visualization is incredibly powerful because it makes the model transparent. You can see exactly why it predicted "Action" for a 22-year-old male, for example, making the results easy to understand and explain.
 
+
+## Screenshots:
+
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)

@@ -1,5 +1,5 @@
 
-# Customer Segmentation using Hierarchical Clustering 📊
+# Customer Segmentation using Hierarchical Clustering 
 
 This project demonstrates how to segment customers into distinct groups using **Agglomerative Hierarchical Clustering**. By analyzing data from mall customers, specifically their annual income and spending score, we can identify different customer personas. This type of analysis is invaluable for businesses looking to personalize marketing efforts.
 
@@ -7,7 +7,7 @@ The entire process, from creating a dendrogram to determine the optimal number o
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`Hierarchical Clustering.ipynb`**: This is the core Jupyter Notebook for the project. It provides a step-by-step guide that covers:
       * Loading and preparing the customer dataset.
@@ -18,7 +18,7 @@ The entire process, from creating a dendrogram to determine the optimal number o
 
 -----
 
-## 🧠 Core Concept: Hierarchical Clustering & Dendrograms
+##  Core Concept: Hierarchical Clustering & Dendrograms
 
 **Hierarchical Clustering** is an algorithm that builds a hierarchy of clusters. The "bottom-up" or *agglomerative* approach works as follows:
 
@@ -29,8 +29,31 @@ The entire process, from creating a dendrogram to determine the optimal number o
 The key tool used with this method is the **Dendrogram**, a tree-like diagram that visualizes the entire merging process. Its primary purpose is to help us decide on the optimal number of clusters. We do this by finding the longest vertical line on the dendrogram that doesn't intersect any of the horizontal "cluster" lines.
 
 -----
+## Project Structure
 
-## 🚀 How to Run the Project
+```
+Hierarchical_Clustering_Mall_Customer_Segmentation/
+│
+├── static/                         # CSS styles for the Flask application
+│   └── css/
+├── templates/                     # HTML templates for the app interface
+├── Mall_Customers.csv             # Dataset containing mall customer data
+│
+├── README.md                      # Project documentation and usage instructions
+├── requirements.txt               # Python dependencies
+│
+├── app.py                        # Main Flask application entry point
+├── create_classifier_model.py    # Script to train and save the hierarchical clustering model
+│
+├── customer_cluster_model.pkl    # Serialized hierarchical clustering model
+│
+├── img1.png                      # Screenshots or visuals of the app
+├── img2.png
+├── img3.png
+
+```
+
+##  How to Run the Project
 
 Follow these instructions to run the analysis on your local machine.
 
@@ -100,13 +123,16 @@ In the browser tab that opens, click on **`Hierarchical Clustering.ipynb`**. You
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
 -----
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 This project is an educational demonstration of Hierarchical Clustering. The customer segments identified are based on the provided dataset and the specific parameters chosen for the analysis.

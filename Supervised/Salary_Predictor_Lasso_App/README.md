@@ -1,7 +1,7 @@
 
 -----
 
-# Data Professional Salary Predictor 💼
+# Data Professional Salary Predictor
 
 This project is a web application that predicts the salary of a data professional based on various factors like job title, years of experience, and company rating. The prediction model is built using **Lasso Regression**, a linear model that performs feature selection to prevent overfitting.
 
@@ -9,7 +9,7 @@ The entire project, from data cleaning and model training to deployment, is incl
 
 -----
 
-## 📄 Files Description
+##  Files Description
 
   * **`Salary Predictor.ipynb`**: This Jupyter Notebook contains the complete data science workflow. It covers data loading, extensive cleaning, exploratory data analysis (EDA), feature engineering, and the training and evaluation of the Lasso Regression model.
   * **`app.py`**: The core Flask application. It loads the pre-trained Lasso model, manages the web routes, and processes user input to return a salary prediction.
@@ -20,7 +20,24 @@ The entire project, from data cleaning and model training to deployment, is incl
 
 -----
 
-## 🚀 How to Run the Project
+## Project Structure
+```
+Salary_Predictor_Lasso_App/
+├── static/
+│   └── css/                     # CSS styles for the web interface
+├── templates/                   # HTML templates for the Flask app UI
+├── README.md                    # Project documentation and usage instructions
+├── app.py                       # Main Flask application to predict salary using Lasso Regression
+├── create_model.py              # Script to train and save the Lasso Regression model
+├── experience_salary.csv        # Dataset containing years of experience vs salary
+├── img1.png                      # UI / output screenshot
+├── img2.png
+├── img3.png
+├── lasso_salary_model.pkl       # Saved trained Lasso model
+├── requirements.txt             # List of Python dependencies for the project
+```
+
+##  How to Run the Project
 
 You can either interact with the final web application or dive into the code by exploring the Jupyter Notebook.
 
@@ -108,13 +125,16 @@ To understand how the model was built, you can run the notebook.
 
 -----
 
-## 🖼️ Screenshot
+##  Screenshots:
 
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
 -----
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 This project was created for educational and portfolio purposes. The predictions are based on the patterns in the training dataset and should be considered estimates, not guaranteed salary figures. The model's accuracy is limited by the scope and quality of the data used.

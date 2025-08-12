@@ -3,7 +3,7 @@
 
 # Credit Card Fraud Detection using SVM
 
-This project develops a machine learning model to detect fraudulent credit card transactions using a **Support Vector Machine (SVM)** classifier. The model is deployed as a simple web application using Flask for real-time transaction verification. 💳
+This project develops a machine learning model to detect fraudulent credit card transactions using a **Support Vector Machine (SVM)** classifier. The model is deployed as a simple web application using Flask for real-time transaction verification. 
 
 -----
 
@@ -43,6 +43,23 @@ The repository contains the following files:
   * `requirements.txt`: A list of all required Python libraries.
 
 -----
+
+##  Project Structure
+```
+Credit_Fraud_SVM_App/
+├── static/
+│   └── css/                          # CSS styles for the Flask web interface
+├── templates/                        # HTML templates for rendering the UI
+├── README.md                         # Project documentation and usage guide
+├── app.py                            # Main Flask application entry point
+├── create_model.py                   # Script to train and serialize the SVM model
+├── credit_fraud_data.csv             # Dataset used for credit card fraud detection
+├── fraud_svm_model.pkl               # Saved SVM model for prediction
+├── img1.png                          # App UI screenshot or workflow image
+├── img2.png
+├── img3.png
+├── requirements.txt                  # Python dependencies for running the project
+```
 
 ## How to Run the Project
 
@@ -98,6 +115,12 @@ You can now use the web interface to get predictions from the model.
 
 This project is for educational and demonstrative purposes only. The model and application should not be used for real-world financial systems without extensive further testing, validation, and adherence to security best practices.
 
+
+## Screenshots:
+
+## Step 1:
 ![General interface](img1.png)
+## Step 2:
 ![Filling in the details](img2.png)
+## Step 3:
 ![Final predicted result](img3.png)
