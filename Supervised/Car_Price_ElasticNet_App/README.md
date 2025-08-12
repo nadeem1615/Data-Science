@@ -3,7 +3,7 @@
 
 # Car Price Prediction with ElasticNet Regression
 
-This project predicts the price of used cars based on various features using an **ElasticNet regression model**. The trained model is deployed as a simple web application using Flask, allowing users to get price predictions in real-time. 🚗
+This project predicts the price of used cars based on various features using an **ElasticNet regression model**. The trained model is deployed as a simple web application using Flask, allowing users to get price predictions in real-time. 
 
 -----
 
@@ -32,13 +32,22 @@ By combining both, ElasticNet gets the best of both worlds, making it a robust c
 
 ## File Structure
 
-The repository is organized as follows:
+## 📂 Project Structure
 
-  * `Car Price ElasticNet App.ipynb`: A Jupyter Notebook containing the complete data analysis, feature engineering, model training, and evaluation steps.
-  * `Car_Price_Assignment.csv`: The raw dataset containing features and prices of various cars.
-  * `app.py`: The **Flask application** script. It loads the trained model and serves the HTML interface.
-  * `car_price_elasticnet_app.pkl`: The serialized (saved) trained ElasticNet model file.
-  * `requirements.txt`: A list of all Python libraries required to run the project.
+Car_Price_ElasticNet_App/
+├── static/
+│   └── css/                       # CSS stylesheets
+├── templates/                     # HTML templates for Flask app
+├── README.md                      # Project documentation
+├── Year-Mileagein1000s-EngineSizeL-Horsepower-NumberofDoors-FuelType0Gas1Diesel-Price.csv  # Dataset
+├── app.py                         # Main Flask application
+├── create_model.py                # Script to train and save ElasticNet model
+├── elasticnet_car_price_model.pkl # Trained model file
+├── img1.png                       # App screenshot / visual
+├── img2.png
+├── img3.png
+├── requirements.txt               # Python dependencies
+
 
 -----
 
