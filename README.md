@@ -16,7 +16,7 @@ Supervised learning uses labeled data to train models for predictions. It is div
 - **SVM (Support Vector Machines)** – [SVM Repo](Supervised/Credit_Fraud_SVM_App)  
 - **KNN (K-Nearest Neighbors)** – [KNN Repo](Supervised/Student_Success_KNN_App)  
 - **Logistic Regression** – [Logistic Regression Repo](Supervised/LogistcRegression_Diabetes_Predictor)  
-- **Naive Bayes** – [Naive Bayes Repo](https://github.com/SURESH6161/Data-Science/tree/852af1797830ca89718539c6a6e75ce0e84c3c78/Supervised/Multinomial_Naive_Bayes%20Spam_Detector_App)  
+- **Naive Bayes** – [Naive Bayes Repo](https://github.com/nadeem1615/Data-Science/tree/main/Supervised/Multinomial_Naive_Bayes%20Spam_Detector_App)  
 - **Gradient Boosting** – [Gradient Boosting Repo](Supervised/Loan_Default_GB_App)
 
 ---
