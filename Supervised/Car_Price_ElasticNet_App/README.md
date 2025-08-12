@@ -33,7 +33,7 @@ By combining both, ElasticNet gets the best of both worlds, making it a robust c
 ## File Structure
 
 ##  Project Structure
-
+```
 Car_Price_ElasticNet_App/
 ├── static/
 │   └── css/                       # CSS stylesheets
@@ -47,7 +47,7 @@ Car_Price_ElasticNet_App/
 ├── img2.png
 ├── img3.png
 ├── requirements.txt               # Python dependencies
-
+```
 
 -----
 
