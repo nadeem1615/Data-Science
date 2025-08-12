@@ -101,9 +101,9 @@ You should see a web form where you can input car details to get a price predict
 
 ## Screenshots:
 
-## Screenshot 1:
+## Step 1:
 ![General interface](img1.png)
-## Screenshot 2:
+## Step 2:
 ![Filling in the details](img2.png)
-## Screenshot 3:
+## Step 3:
 ![Final predicted result](img3.png)
