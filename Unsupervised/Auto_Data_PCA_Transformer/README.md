@@ -58,7 +58,7 @@ Download the project folder to your local machine.
 
 ```bash
 # Use svn to export just this folder
-svn export https://github.com/SURESH6161/Data-Science/trunk/Unsupervised/Auto_Data_PCA_Transformer
+svn export https://github.com/nadeem1615/Data-Science/trunk/Unsupervised/Auto_Data_PCA_Transformer
 
 # Navigate into the new directory
 cd Auto_Data_PCA_Transformer

@@ -24,9 +24,14 @@ Technologies Used
 
 Setup and Installation
 ----------------------
-1. Clone the Repository:
-   git clone https://github.com/SURESH6161/RandomForestClassifier_Student_pass_Predicter.git
-   cd RandomForestClassifier_Student_pass_Predicter
+1. Get the Project Files:
+
+```bash
+# Export the specific project directory
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/RandomForestClassifier_Student_pass_Predicter
+# Navigate into the new directory
+cd RandomForestClassifier_Student_pass_Predicter
+```
 
 2. Create a Virtual Environment (Recommended):
    - For Windows: python -m venv venv && venv\Scripts\activate

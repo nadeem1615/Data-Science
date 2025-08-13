@@ -55,10 +55,12 @@ Car_Price_ElasticNet_App/
 
 To get the project up and running on your local machine, follow these steps.
 
-### 1\. Clone the Repository
+### 1\. Get the Project Files 
 
 ```bash
-git clone https://github.com/SURESH6161/Data-Science.git
+# Export the specific directory
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Car_Price_ElasticNet_App
+# Navigate into new directory
 cd Data-Science/Supervised/Car_Price_ElasticNet_App
 ```
 

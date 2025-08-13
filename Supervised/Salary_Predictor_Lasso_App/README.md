@@ -51,7 +51,7 @@ You need to download the project folder to your machine. Using `svn` is a quick 
 
 ```bash
 # Export the specific project directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/Salary_Predictor_Lasso_App
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Salary_Predictor_Lasso_App
 
 # Navigate into the new directory
 cd Salary_Predictor_Lasso_App

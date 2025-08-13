@@ -63,7 +63,7 @@ First, download the project folder. You can use `svn` to quickly get just this s
 
 ```bash
 # Export the specific project directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Unsupervised/Hierarchical_Clustering_Mall_Customer_Segmentation
+svn export https://github.com/nadeem1615/Data-Science/trunk/Unsupervised/Hierarchical_Clustering_Mall_Customer_Segmentation
 
 # Navigate into the new directory
 cd Hierarchical_Clustering_Mall_Customer_Segmentation

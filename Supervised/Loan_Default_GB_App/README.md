@@ -60,7 +60,7 @@ First, clone the specific project folder from the repository. Since you can't cl
 
 ```bash
 # Export the specific directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/Loan_Default_GB_App
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Loan_Default_GB_App
 
 # Navigate into the new directory
 cd Loan_Default_GB_App

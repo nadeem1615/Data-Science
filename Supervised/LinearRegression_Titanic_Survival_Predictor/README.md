@@ -85,12 +85,14 @@ LinearRegression_Titanic_Survival_Predictor/
 
 To run the analysis on your own machine, you'll need Python and a few common data science libraries. Follow these steps.
 
-### Step 1: Clone the Repository
+### Step 1: Get the Project Files
 
 First, get the project files onto your computer using Git.
 
 ```bash
-git clone https://github.com/SURESH6161/Data-Science.git
+# Export the specific directory
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/LinearRegression_Titanic_Survival_Predictor
+# Navigate into new directory
 cd Data-Science/Supervised/LinearRegression_Titanic_Survival_Predictor
 ```
 

@@ -65,10 +65,12 @@ Credit_Fraud_SVM_App/
 
 Follow these steps to set up and run the application on your local machine.
 
-### 1\. Clone the Repository
+### 1\. Get the Project Files
 
 ```bash
-git clone https://github.com/SURESH6161/Data-Science.git
+# Export the specific directory
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Credit_Fraud_SVM_App
+# Navigate into new directory
 cd Data-Science/Supervised/Credit_Fraud_SVM_App
 ```
 

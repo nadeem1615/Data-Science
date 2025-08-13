@@ -50,7 +50,7 @@ Download the project folder to your computer. A quick method is to use `svn` if 
 
 ```bash
 # Export just this specific project folder
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/Smartphone_Price_Ridge_App
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Smartphone_Price_Ridge_App
 
 # Navigate into the new directory
 cd Smartphone_Price_Ridge_App

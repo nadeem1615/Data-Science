@@ -59,7 +59,7 @@ First, you need to download the project folder. You can use `svn` to get just th
 
 ```bash
 # Export the specific project directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Unsupervised/Mall_Customer_KMeans
+svn export https://github.com/nadeem1615/Data-Science/trunk/Unsupervised/Mall_Customer_KMeans
 
 # Navigate into the new directory
 cd Mall_Customer_KMeans

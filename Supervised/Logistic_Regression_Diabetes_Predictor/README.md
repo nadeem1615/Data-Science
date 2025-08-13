@@ -72,10 +72,10 @@ If you have `svn` (a version control tool) installed, you can download just this
 
 ```bash
 # Export the specific directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/LogistcRegression_Diabetes_Predictor
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Logistic_Regression_Diabetes_Predictor
 
 # Navigate into the new directory
-cd LogistcRegression_Diabetes_Predictor
+cd Logistic_Regression_Diabetes_Predictor
 ```
 
 ### 3\. Create a Virtual Environment (Recommended)

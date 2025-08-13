@@ -65,9 +65,10 @@ pip install pandas scikit-learn graphviz pydotplus
 
 ## Usage
 
-1.  Clone the repository:
+1.  Get the project files:
     ```bash
-    git clone https://github.com/SURESH6161/Data-Science.git
+    # Export the specific directory:
+    svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Decision_tree_Movie_Interest_Predictor
     ```
 2.  Navigate to the project directory:
     ```bash

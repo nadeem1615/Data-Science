@@ -52,10 +52,10 @@ Download the project files to your local machine.
 
 ```bash
 # Use svn to export just this folder
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/Multinomial_Naive_Bayes%20Spam_Detector_Appa
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Multinomial_Naive_Bayes%20Spam_Detector_App
 
 # Navigate into the new directory
-cd Multinomial_Naive_Bayes Spam_Detector_Appa
+cd Multinomial_Naive_Bayes Spam_Detector_App
 ```
 
 *(Alternatively, you can download the entire repository as a ZIP file from GitHub and navigate to this folder).*

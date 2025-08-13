@@ -39,10 +39,10 @@ Customer_Behavior_DBSCAN/
 
 ##  Installation & Setup
 
-### 1 Clone the repository
+### 1 Export the specific project directory
 
 ```bash
-git clone https://github.com/your-username/Customer_Behavior_DBSCAN.git
+svn export https://github.com/nadeem1615/Data-Science/trunk/Unsupervised/Customer_Segmentation_DBSCAN@eccaa16e0dd02c01808c1cc8b2ae50de3122e097
 cd Customer_Behavior_DBSCAN
 ```
 

@@ -51,7 +51,7 @@ Download the project folder to your local machine. You can use `svn` to grab jus
 
 ```bash
 # Export the specific project directory
-svn export https://github.com/SURESH6161/Data-Science/trunk/Supervised/Student_Success_KNN_App
+svn export https://github.com/nadeem1615/Data-Science/trunk/Supervised/Student_Success_KNN_App
 
 # Navigate into the new directory
 cd Student_Success_KNN_App
