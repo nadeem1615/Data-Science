@@ -3,7 +3,7 @@
 
 This project demonstrates how to build a reusable data preprocessing pipeline using **scikit-learn**. The pipeline automates the process of cleaning and transforming a raw dataset and then applies **Principal Component Analysis (PCA)** for dimensionality reduction.
 
-The final output is a single `preprocessor.pkl` file that can be saved and loaded into other machine learning projects to consistently apply the same transformation steps to new data. This is a foundational technique in building robust and scalable machine learning systems.
+The final output is a single `preprocessor.pkl` file, which can be saved and reused in other machine learning projects to ensure the same transformation steps are consistently applied to new data. This is a fundamental practice for building robust and scalable machine learning systems.
 
 -----
 
